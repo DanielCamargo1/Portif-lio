@@ -168,7 +168,7 @@ h1:hover{
 h3{
     text-align: center;
     width: 100%;
-    font-size:40px ;
+    font-size:30px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02143d;
     margin-top: 50px;
@@ -177,7 +177,7 @@ h3{
 
 h3:hover{
     color:#BF6415;
-    font-size: 51px;
+    font-size: 32px;
 }
 
 button{
@@ -220,7 +220,7 @@ button:hover{
 
 .backTitle,.frontTitle,.DesignTitle{
     width: 100%;
-    font-size:50px ;
+    font-size:40px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02143d;
     margin-top: 50px;
@@ -238,7 +238,6 @@ button:hover{
     align-items: center;
     background-color:#d9ccc148;
     margin: 20px;
-
 }
 
 .imgProjeto{
