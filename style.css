@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px 20px rgba(0, 0, 0, 0.158);
+    background-color: #d9ccc19a;
+}
+
+.nome-profissao{
+  margin:90px;
+}
+
+.cabecalho-menu{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+
+}
+
+.portifolio{
+    color:#02143d;
+    font-size: 30px;
+}
+
+.cabecalho { width:100%; float:left; }
+
+.ImagemDaniel{
+    width:80px;
+    margin-top: 12px;
+}
+
+.cabecalho-menu-item{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#023E73;
+    align-items: center;
+}
+
+.cabecalho-menu-item:hover{
+    font-size: 21px;
+    color: #BF6415;
+}
+
+.apresentacao{
+    background: rgb(2,64,89);
+    background: linear-gradient(204deg, rgba(2,64,89,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color:#D9CCC1;
+}
+
+h1:hover{
+    color:#BF6415;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.h2-front-coffe{
+    display: flex;
+    flex-direction: row;
+    margin-top:1%;
+    animation-duration: 1s ;
+    animation-name: slide;
+}
+
+@keyframes slide{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+
+#daniel{
+    width: 100%;
+    font-size:40px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#web{
+    font-size:27px ;
+    width:90px;
+    color:#BF6415;
+}
+
+.coffe-icon{
+    width:6%;
+}
+
+.logo-dev{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 30px;
+}
+
+.dev{
+    margin-top: -12%;
+    margin-right:100px ;
+    animation-duration: 1s;
+    animation-name: bounce;
+    width: 300px;
+}
+
+@keyframes bounce{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+
+.texto-apresentacao {
+    color:#D9CCC1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 23px;
+    width: 80%;
+    margin: 30px;
+
+}
+
+.logo-dev{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    width: 100%;
+    font-size:40px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#02143d;
+    margin-top: 50px;
+    animation-duration: 2s;
+}
+
+h3:hover{
+    color:#BF6415;
+    font-size: 51px;
+}
+
+button{
+    width: 100px;
+    height: 80px;
+    border-radius:10px ;
+    color:white;
+    background-color: #023E73;
+    font-size: 15px;
+    border-color: none;
+    box-shadow: none;
+
+}
+
+button:hover{
+    background-color:#ffffff;
+    color:#023E73;
+}
+
+.logo-dev {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 10px;
+    width: 110px; 
+    height: 110px;
+}
+
+.icon:hover{
+    width: 120px;
+    height: 120px;
+}
+
+.projetosBack, .projetosFront, .pdesign{
+    border:3.2px solid #02143d;
+    box-shadow: 10px 10px 20px #02143d81;
+}
+
+.backTitle,.frontTitle,.DesignTitle{
+    width: 100%;
+    font-size:50px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#02143d;
+    margin-top: 50px;
+}
+
+.projetosBack, .projetosFront, .pdesign{
+    display: flex;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    border:2px double #02143d;
+    align-items: center;
+    background-color:#d9ccc148;
+    margin: 20px;
+
+}
+
+.imgProjeto{
+    width: 300px;
+    align-items: center;
+}
+
+#natusTxt, #calcTxt, #barbeariaTxt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#02143d;
+    font-size: 30px;
+    text-align: center;
+}
+
+.descricao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+footer{
+    background-color: #1d2027;
+    width: 100%;
+}
+
+footer p{
+    margin: 20px;
+    text-align: center;
+    color:white;
+}
+
+footer p:hover{
+    color: rgb(56, 56, 172);
+}
