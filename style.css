@@ -7,11 +7,12 @@
 
 header{
     width: 100%;
+    padding: 2rem 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 10px 10px 20px rgba(0, 0, 0, 0.158);
-    background-color: #d9ccc19a;
+    background-color: #cfb8a49a;
 }
 
 .nome-profissao{
@@ -111,6 +112,23 @@ h1:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.ImagemDesenvolvedor img{
+    width: 100%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 #web{
     font-size:27px ;
@@ -189,7 +207,6 @@ button{
     font-size: 15px;
     border-color: none;
     box-shadow: none;
-
 }
 
 button:hover{
@@ -273,4 +290,237 @@ footer p{
 
 footer p:hover{
     color: rgb(56, 56, 172);
+}
+
+
+/* Criando a Responsividade */
+
+
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px){
+    header{
+        padding:2rem 3%;
+        width: 100%;
+    }
+
+    .nome-profissao{
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+    .portifolio{
+        font-size:20px ;
+        margin-left: 90px;
+    }
+
+    .cabecalho-menu{
+        margin-right: 10%;
+    }
+
+    .cabecalho-menu-item{
+        font-size: 16px;
+    }
+    
+    #init{
+        margin-right: 100px;
+    }
+
+     h1{
+        font-size: 23px;
+    }
+
+    .texto-apresentacao{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 27px;
+    }
+
+    h3:hover{
+        font-size: 29px;
+    }
+
+    .backTitle{
+        font-size: 30px;
+    }
+
+    .projetosBack, .projwtosFront{
+        width: 100%;
+    }
+    .back, .front{
+        width: 900px;
+    }
+
+    .projetos{
+        width: 260px;
+    }
+
+    .imgProjeto{
+        width: 110px;
+    }
+
+    .Txt{
+        font-size: 10px;
+        width: 100%;
+    }
+    @media (max-width: 768px) {
+        html{
+            font-size: 55%;
+        }
+
+        header{
+            padding:2rem 3%;
+            width: 100%;
+        }
+
+        .back{
+            width: 750px;
+        }
+
+        .frontTitle{
+            font-size: 30px;
+        }
+
+        .descricao{
+            font-size: 14px;
+        }
+
+        .ttxt{
+            font-size: 18px;
+        }
+
+        footer p{
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 617px) {
+
+       .back,.front{
+        width: 600px;
+       }
+
+       .imgProjeto{
+        width: 80px;
+       }
+    }
+    
+    @media (max-width: 450px) {
+        html {
+            font-size: 50%;
+        }
+
+        .back{
+            width: 450px;
+        }
+
+        .portifolio{
+            font-size: 13px;
+            margin-left: -5px;
+        }
+
+        .cabecalho-menu-item{
+            font-size: 9px;
+        }
+
+        h1{
+            font-size: 15px;
+            margin-top: -0px;
+        }
+
+        #web{
+            font-size: 15px;
+        }
+
+        .coffe-icon{
+            width: 0px;
+            height: 0px;
+        }
+
+        .apresentacao{
+            text-align: center;
+        }
+
+        .texto-apresentacao{
+            font-size: 10px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .ImagemDesenvolvedor{
+            width: 150px;
+            margin: auto;
+            margin-top: -50px;
+        }
+
+        .nome-profissao{
+            margin-top: -10px;
+        }
+
+        .coffe-icon{
+            width: 10px;
+        }
+        
+        .dev{
+            width: 10px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        .logo-dev{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .icon{
+            width: 27px;
+            height: 27px;
+        }
+
+        button{
+            width: 60px;
+            height: 60px;
+            font-size: 10px;
+        }
+
+        .backTitle{
+            font-size: 20px;
+        }
+
+        .projetosBack, .projetosFront{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .apresentacao{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ttxt{
+            font-size: 10px;
+        }
+
+        .descricao{
+            font-size: 10px;
+        }
+
+        .projetosBack, .projetosFront{
+            align-items: center;
+        }
+    }
+    
+    @media (max-width: 365px) {
+
+        .back{
+            width: 360px;
+        }
+    }
 }
