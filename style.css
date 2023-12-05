@@ -408,6 +408,10 @@ footer p:hover{
        .imgProjeto{
         width: 80px;
        }
+
+       .cabecalho-menu-item:hover{
+        font-size: 10px;
+       }
     }
     
     @media (max-width: 450px) {
@@ -427,6 +431,10 @@ footer p:hover{
         .cabecalho-menu-item{
             font-size: 9px;
         }
+        
+        .cabecalho-menu-item:hover{
+            font-size: 10px;
+           }
 
         h1{
             font-size: 15px;
