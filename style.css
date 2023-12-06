@@ -492,6 +492,11 @@ footer p:hover{
             height: 27px;
         }
 
+        icon:hover{
+            width: 29px;
+            height: 29px;
+        }
+
         button{
             width: 60px;
             height: 60px;
