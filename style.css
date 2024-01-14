@@ -545,9 +545,9 @@ footer p:hover{
             width: 360px;
         }
         .WhatsFixedItem{
-            width: 20px;
+            width: 50px;
             position: fixed;
-            margin-right: 30%;
+            margin-left:300px;
         }
     }
 }
