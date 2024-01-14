@@ -277,6 +277,15 @@ button:hover{
     width: 80%;
 }
 
+.WhatsFixedItem{
+    margin-left:90%;
+    width: 80px;
+    margin-top: -40px;
+    position: fixed;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 8px rgba(0, 128, 0, 0.397);
+}
+
 footer{
     background-color: #1d2027;
     width: 100%;
@@ -534,6 +543,10 @@ footer p:hover{
 
         .back{
             width: 360px;
+        }
+        .WhatsFixedItem{
+            width: 20px;
+            position: fixed;
         }
     }
 }
