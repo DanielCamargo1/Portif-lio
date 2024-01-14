@@ -547,6 +547,7 @@ footer p:hover{
         .WhatsFixedItem{
             width: 20px;
             position: fixed;
+            margin-right: 50%;
         }
     }
 }
