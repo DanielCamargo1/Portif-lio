@@ -572,4 +572,15 @@ footer p:hover{
             margin-top: -3px;
         }
     }
+    @media (max-width: 313px) {
+
+        .back{
+            width: 302px;
+        }
+        .WhatsFixedItem{
+            width: 40px;
+            position: fixed;
+            margin-left:250px;
+        }
+    }
 }
