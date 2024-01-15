@@ -378,6 +378,11 @@ footer p:hover{
         font-size: 10px;
         width: 100%;
     }
+    .WhatsFixedItem{
+        width: 50px;
+        position: fixed;
+        margin-left:900px;
+    }
     @media (max-width: 768px) {
         html{
             font-size: 55%;
@@ -407,6 +412,11 @@ footer p:hover{
         footer p{
             font-size: 15px;
         }
+        .WhatsFixedItem{
+            width: 50px;
+            position: fixed;
+            margin-left:700px;
+        }
     }
     @media (max-width: 617px) {
 
@@ -421,6 +431,11 @@ footer p:hover{
        .cabecalho-menu-item:hover{
         font-size: 10px;
        }
+       .WhatsFixedItem{
+        width: 50px;
+        position: fixed;
+        margin-left:580px;
+    }
     }
     
     @media (max-width: 450px) {
@@ -536,6 +551,11 @@ footer p:hover{
 
         .projetosBack, .projetosFront{
             align-items: center;
+        }
+        .WhatsFixedItem{
+            width: 50px;
+            position: fixed;
+            margin-left:390px;
         }
     }
     
