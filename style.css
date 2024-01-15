@@ -444,7 +444,7 @@ footer p:hover{
         }
 
         .back{
-            width: 420px;
+            width: 390px;
         }
 
         .portifolio{
@@ -555,19 +555,21 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:390px;
+            margin-left:330px;
+            margin-top:90px;
         }
     }
     
     @media (max-width: 365px) {
 
         .back{
-            width: 340px;
+            width: 330px;
         }
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:300px;
+            margin-left:270px;
+            margin-top: -3px;
         }
     }
 }
