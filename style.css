@@ -444,7 +444,7 @@ footer p:hover{
         }
 
         .back{
-            width: 450px;
+            width: 420px;
         }
 
         .portifolio{
@@ -562,7 +562,7 @@ footer p:hover{
     @media (max-width: 365px) {
 
         .back{
-            width: 360px;
+            width: 340px;
         }
         .WhatsFixedItem{
             width: 50px;
