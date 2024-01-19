@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
 *{
     margin:0;
     padding: 1px;
@@ -33,7 +34,10 @@ header{
     font-size: 30px;
 }
 
-.cabecalho { width:100%; float:left; }
+.cabecalho {
+    width:100%;
+    float:left;
+}
 
 .ImagemDaniel{
     width:80px;
@@ -199,11 +203,12 @@ h3:hover{
 }
 
 button{
-    width: 100px;
-    height: 80px;
+    width: 130px;
+    height: 85px;
     border-radius:10px ;
     color:white;
     background-color: #023E73;
+    font-family: 'Rubik', sans-serif;
     font-size: 15px;
     border-color: none;
     box-shadow: none;
@@ -211,7 +216,9 @@ button{
 
 button:hover{
     background-color:#ffffff;
-    color:#023E73;
+    border:2px 2px #023E73;
+    color:#02143d;
+    width: 130px;
 }
 
 .logo-dev {
