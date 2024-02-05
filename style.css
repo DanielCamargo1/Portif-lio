@@ -386,11 +386,11 @@ footer p:hover{
         width: 100%;
     }
     .back, .front{
-        width: 900px;
+        width: 100%;
     }
 
     .projetos{
-        width: 260px;
+        width: 100%;
     }
 
     .imgProjeto{
@@ -457,7 +457,7 @@ footer p:hover{
        .WhatsFixedItem{
         width: 50px;
         position: fixed;
-        margin-left:580px;
+        margin-left:540px;
     }
     }
     
@@ -550,6 +550,10 @@ footer p:hover{
             font-size: 10px;
         }
 
+        .projetos{
+            width: 100%;
+        }
+
         .backTitle{
             font-size: 20px;
         }
@@ -557,6 +561,10 @@ footer p:hover{
         .projetosBack, .projetosFront{
             display: flex;
             flex-direction: column;
+            width: 100%;
+        }
+        .back,.front{
+            width: 100%;
         }
 
         .apresentacao{
@@ -574,25 +582,26 @@ footer p:hover{
 
         .projetosBack, .projetosFront{
             align-items: center;
+            width: 100%;
         }
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:330px;
-            margin-top:90px;
+            margin-left:380px;
+            margin-top:70px;
         }
     }
     
     @media (max-width: 365px) {
 
         .back{
-            width: 330px;
+            width: 100%;
         }
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:270px;
-            margin-top: -3px;
+            margin-left:288px;
+            margin-top: 3px;
         }
     }
     @media (max-width: 313px) {
