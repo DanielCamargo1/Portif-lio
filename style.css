@@ -247,7 +247,7 @@ button:hover{
     font-size:40px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02143d;
-    margin-top: 50px;
+    margin-top: 8%;
 }
 
 .projetosBack, .projetosFront, .pdesign{
@@ -502,7 +502,7 @@ footer p:hover{
         }
 
         .texto-apresentacao{
-            font-size: 10px;
+            font-size: 13px;
             text-align: center;
             margin: auto;
         }
@@ -573,11 +573,11 @@ footer p:hover{
         }
 
         .ttxt{
-            font-size: 10px;
+            font-size: 20px;
         }
 
         .descricao{
-            font-size: 10px;
+            font-size: 18px;
         }
 
         .projetosBack, .projetosFront{
@@ -587,7 +587,7 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:380px;
+            margin-left:300px;
             margin-top:70px;
         }
     }
@@ -600,7 +600,7 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:288px;
+            margin-left:-288px;
             margin-top: 3px;
         }
     }
@@ -612,7 +612,26 @@ footer p:hover{
         .WhatsFixedItem{
             width: 40px;
             position: fixed;
-            margin-left:250px;
+            margin-left:-150px;
+        }
+
+        .WhatsFixed{
+            margin-left: -100px;
+        }
+    }
+    @media (max-width: 290px){
+        .projetos{
+            width: 100%;
+        }
+
+        .back,.front{
+            width: 100%;
+        }
+        .projetosBack,.projetosFront{
+            width: 100%;
+        }
+        .WhatsFixed{
+            margin-right: 400px;
         }
     }
 }
