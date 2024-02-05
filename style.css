@@ -264,6 +264,12 @@ button:hover{
     margin: 20px;
 }
 
+.projetos:hover{
+    border:2.3px solid #4ea2ec;
+    background-color: #d9ccc17e;
+    box-shadow: 5px 10px 10px #4ea2ec73;
+}
+
 .imgProjeto{
     width: 300px;
     align-items: center;
