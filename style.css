@@ -318,6 +318,9 @@ button:hover{
 footer{
     background-color: #1d2027;
     width: 100%;
+    border-radius: 50%  0% 0%;
+    box-shadow: 5px 5px 10px 20px #4ea2ec8a;
+    margin-top: 5%;
 }
 
 footer p{
@@ -327,7 +330,7 @@ footer p{
 }
 
 footer p:hover{
-    color: rgb(56, 56, 172);
+    color: #4ea2ec;
 }
 
 
