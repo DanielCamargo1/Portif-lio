@@ -273,15 +273,31 @@ button:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02143d;
     font-size: 30px;
-    text-align: center;
+    
 }
 
 .descricao{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+    text-align: left;
     margin: 10px;
-    text-align: center;
+    text-align: left;
     width: 80%;
+}
+
+.stacks{
+    display: flex;
+    flex-direction: row;
+}
+
+.stacks i{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
 }
 
 .WhatsFixedItem{
