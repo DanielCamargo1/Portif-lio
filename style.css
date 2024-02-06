@@ -456,6 +456,10 @@ footer p:hover{
         width: 600px;
        }
 
+       .texto-apresentacao{
+        text-align: left;
+       }
+
        .imgProjeto{
         width: 80px;
        }
@@ -474,10 +478,18 @@ footer p:hover{
         html {
             font-size: 50%;
         }
+        .texto-apresentacao{
+            text-align: left;
+           }
 
         .back{
             width: 390px;
         }
+
+        .imgProjeto{
+            width: 80%;
+            margin:10%;
+           }
 
         .portifolio{
             font-size: 13px;
@@ -596,12 +608,29 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:300px;
-            margin-top:70px;
+            margin-left:370px;
+            margin-top:40px;
         }
     }
     
     @media (max-width: 365px) {
+
+        .nome-profissao{
+            margin:10%
+        }
+
+        .texto-apresentacao{
+            text-align: left;
+           }
+
+        .ImagemDesenvolvedor{
+            width: 80%;
+
+        }
+
+        .dev{
+            margin: 10%;
+        }
 
         .back{
             width: 100%;
@@ -609,29 +638,43 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:-288px;
-            margin-top: 3px;
+            margin-left:80%;
+            margin-top: -10%;
         }
     }
     @media (max-width: 313px) {
+        .nome-profissao{
+            margin:10%
+        }
 
+        .texto-apresentacao{
+            text-align: left;
+           }
+
+        .ImagemDesenvolvedor{
+            width: 80%;
+
+        }
+
+        .dev{
+            margin: 10%;
+        }
         .back{
             width: 302px;
         }
-        .WhatsFixedItem{
-            width: 40px;
-            position: fixed;
-            margin-left:-150px;
-        }
 
         .WhatsFixed{
-            margin-left: -100px;
+            margin-left: -5px;
         }
     }
     @media (max-width: 290px){
         .projetos{
             width: 100%;
         }
+
+        .texto-apresentacao{
+            text-align: left;
+           }
 
         .back,.front{
             width: 100%;
