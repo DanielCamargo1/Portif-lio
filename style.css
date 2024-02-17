@@ -265,9 +265,9 @@ button:hover{
 }
 
 .projetos:hover{
-    border:2.3px solid #4ea2ec;
+    border:2.3px solid #BF6415;
     background-color: #d9ccc17e;
-    box-shadow: 5px 10px 10px #4ea2ec73;
+    box-shadow: 5px 10px 10px #bf64154f;
 }
 
 .imgProjeto{
@@ -319,7 +319,7 @@ footer{
     background-color: #1d2027;
     width: 100%;
     border-radius: 50%  0% 0%;
-    box-shadow: 5px 5px 10px 20px #4ea2ec8a;
+    box-shadow: 5px 5px 10px 20px #bf641573;
     margin-top: 5%;
 }
 
