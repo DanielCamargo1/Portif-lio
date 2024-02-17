@@ -526,6 +526,7 @@ footer p:hover{
             font-size: 13px;
             text-align: center;
             margin: auto;
+            text-align: left;
         }
 
         .ImagemDesenvolvedor{
@@ -591,6 +592,7 @@ footer p:hover{
         .apresentacao{
             display: flex;
             flex-direction: column;
+            text-align: left;
         }
 
         .ttxt{
@@ -608,8 +610,8 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:370px;
-            margin-top:40px;
+            margin-left:359px;
+            margin-top:0px;
         }
     }
     
@@ -622,6 +624,10 @@ footer p:hover{
         .texto-apresentacao{
             text-align: left;
            }
+
+        .apresentacao{
+            text-align: left;
+        }   
 
         .ImagemDesenvolvedor{
             width: 80%;
@@ -638,8 +644,7 @@ footer p:hover{
         .WhatsFixedItem{
             width: 50px;
             position: fixed;
-            margin-left:80%;
-            margin-top: -10%;
+            margin-left:90px ;
         }
     }
     @media (max-width: 313px) {
@@ -649,11 +654,13 @@ footer p:hover{
 
         .texto-apresentacao{
             text-align: left;
-           }
-
+        }
+        .apresentacao{
+            text-align:left;
+        }
+        
         .ImagemDesenvolvedor{
             width: 80%;
-
         }
 
         .dev{
@@ -664,10 +671,12 @@ footer p:hover{
         }
 
         .WhatsFixed{
-            margin-left: -5px;
+            margin-left:50%;
         }
     }
     @media (max-width: 290px){
+        
+
         .projetos{
             width: 100%;
         }
