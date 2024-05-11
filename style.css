@@ -309,7 +309,7 @@ button:hover{
 .WhatsFixedItem{
     margin-left:90%;
     width: 80px;
-    margin-top: -100px;
+    margin-top: -150px;
     position: fixed;
     border-radius: 50%;
     box-shadow: 0 0 2px 8px rgba(0, 128, 0, 0.397);
@@ -319,7 +319,7 @@ footer{
     background-color: #1d2027;
     width: 100%;
     border-radius: 50%  0% 0%;
-    box-shadow: 5px 5px 10px 20px #bf641573;
+    box-shadow: 5px 5px 10px 20px #50260273;
     margin-top: 5%;
 }
 
