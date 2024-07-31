@@ -20,6 +20,11 @@ header{
   margin:90px;
 }
 
+#moon{
+    margin-left: 60px;
+    width:50px;
+}
+
 .cabecalho-menu{
     width: 100%;
     display:flex;
