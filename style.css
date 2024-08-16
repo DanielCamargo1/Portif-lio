@@ -309,75 +309,6 @@ button:hover{
     height: 32px;
 }
 
-.projetosBack, .projetosFront, .pdesign{
-    border:3.2px solid #02143d;
-    box-shadow: 10px 10px 20px #02143d81;
-}
-
-.backTitle,.frontTitle,.DesignTitle{
-    width: 100%;
-    font-size:40px ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#02143d;
-    margin-top: 8%;
-}
-
-.projetosBack, .projetosFront, .pdesign{
-    display: flex;
-}
-
-.projetos{
-    display: flex;
-    flex-direction: column;
-    margin-left: 18px;
-    border:2px double #02143d;
-    align-items: center;
-    background-color:#d9ccc148;
-    margin: 20px;
-}
-
-.projetos:hover{
-    border:2.3px solid #BF6415;
-    background-color: #d9ccc17e;
-    box-shadow: 5px 10px 10px #bf64154f;
-}
-
-.imgProjeto{
-    width: 300px;
-    align-items: center;
-}
-
-#natusTxt, #calcTxt, #barbeariaTxt{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#02143d;
-    font-size: 30px;
-    
-}
-
-.descricao{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    text-align: left;
-    margin: 5px;
-    text-align: left;
-    width: 80%;
-}
-
-.stacks{
-    display: flex;
-    flex-direction: row;
-}
-
-.stacks i{
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    margin: 3rem 1.5rem 3rem 0;
-    transition: .5s ease;
-}
-
 .WhatsFixedItem{
     margin-left:90%;
     width: 80px;
@@ -406,7 +337,7 @@ footer p:hover{
 }
 
 
-/* Criando a Responsividade */
+/*  Responsividade */
 
 
 @media(max-width: 1200px){
