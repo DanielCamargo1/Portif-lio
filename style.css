@@ -225,23 +225,23 @@ h2{
 }
 
 #curso{
-    background-image: url("imagens/ads.jpg");
+    background-image: url("imagens/Ads.png");
     color:white;
 }
 
 #back{
-    background-image: url("imagens/BackCArd.png");
+    background-image: url("imagens/BAcks.png");
 }
 
 #front{
-    background-image: url("imagens/front.jpg");
+    background-image: url("imagens/FrontEnd.png");
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
 }
 
 #csharp{
-    background-image: url("imagens/Csharp-.png");
+    background-image: url("imagens/Csharp.png");
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
