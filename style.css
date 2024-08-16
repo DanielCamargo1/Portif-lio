@@ -67,7 +67,7 @@ header{
 }
 
 .apresentacao{
-    background-image: url("/imagens/Background.jpg");
+    background-image: url("imagens/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
@@ -88,8 +88,6 @@ h1{
 code{
     font-size: 20px;
     color:#9B0E0C;
-   
-
 }
 
 @keyframes slidein {
