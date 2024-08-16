@@ -4,185 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifólio - veja meus projetos </title>
+    <title>Meu portfólio - veja meus projetos</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/dc-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-                    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho" id="cabecalho">
-            <h1 class="portifolio">Portifólio</h1>
-            <nav class="cabecalho-menu">
-                <a class="cabecalho-menu-item" href="#init">Inicio</a>
-                <a class="cabecalho-menu-item" href="#ctt">Contato</a>
-                <a class="cabecalho-menu-item" href="#projeto">Projetos</a>
-                <a  class="cabecalho-menu-item"  href="#footer">Fim</a>  
-            </nav>
+        <h1 class="portifolio">Portfólio</h1>
+        <nav class="cabecalho-menu">
+             <a class="cabecalho-menu-item" href="#init">Início</a>
+            <a class="cabecalho-menu-item" href="#sobre">Sobre mim</a>
+            <a class="cabecalho-menu-item" href="#projeto">Projetos</a>
+            <a class="cabecalho-menu-item" href="#footer">Fim</a>
+            </ul>
+        </nav>
     </header>
     <main class="conteudo-do-site">
-        <div class="apresentacao">
+        <section class="apresentacao">
             <div class="nome-profissao">
-                    <div class="h1-developer-icon">
-                        <h1> <code>Hello_World_!</code> Eu sou o Daniel Camargo</h1>
+                <h1 > <code>Hello_World_!,  </code>Eu sou o 
+                      <div class="nome">Daniel Camargo</div> 
+                    </h1>
+                <div class="textoTopo">
+                    <div class="h2-front-coffe">
+                        <span id="frontdev" class="web">Web_Developer_</span>
+                        <img class="coffe-icon" src="imagens/xicara-de-cafe.png" alt="Ícone de café">
                     </div>
-                    <div class="textoTopo">
-                        <div class="h2-front-coffe">
-                            <span id="frontdev" ><code id="web">Web_Developer_</code></span >
-                            <img class="coffe-icon" src="imagens/xicara-de-cafe.png" alt="coffe icon">
-                        </div>
-                        <p  class="texto-apresentacao">"Desenvolvedor .NET com maior ênfase em back end e também habilidades sólidas no front end. Especializando em criar sistemas robustos e interfaces eficientes. <br> <br>  Atualmente Cursando Análise e Desenvolvimento de Sistemas na Faculdade Anhanguera"</p>
-                    </div>
+                    
+                </div>
+                <div class="logo-dev">
+                    <a href="https://github.com/DanielCamargo1" target="_blank">
+                        <img id="git" class="icon" src="imagens/github.png" alt="GitHub" onclick="git()">
+                    </a>
+                    <a href="https://br.linkedin.com/in/danielcamargop-dev" target="_blank">
+                        <img id="link" class="icon" src="imagens/logotipo-do-linkedin.png" alt="LinkedIn" onclick="linkedin()">
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                        <img id="gma" class="icon" src="imagens/gmail.png" alt="Gmail">
+                    </a>
+                    <a href="PDF/CurriculoDanielBackend.pdf" download>
+                        <button>Baixar o CV</button>
+                    </a>
+                </div>  
             </div>
             <div id="init" class="ImagemDesenvolvedor">
-                <img id="#dev" class="dev" src="imagens/DanielDev.png" alt="Desenvolvedor Daniel Camargo">
+                <img id="dev" class="dev" src="imagens/DanielDev.png" alt="Desenvolvedor Daniel Camargo">
             </div>
-        </div>
-        <div class="WhatsFixed">
-            <a href="https://wa.me/5519997601516?text=Ol%C3%A1+Daniel%2C+tudo+bem%3F+Vim+Pelo+seu+portif%C3%B3lio" target="_blank"><img class="WhatsFixedItem" src="imagens/whatsapp (1).png" alt="WhatsIcon"></a>
-        </div>
-        <h3 id="ctt">COMO ME CONTATAR</h3>
-        <div class="logo-dev">
-            <a href="https://github.com/DanielCamargo1" target="_blank"><img id="git" class="icon" src="imagens/github.png" alt="github" onclick="git()"></a>
-            <a href="https://br.linkedin.com/in/danielcamargop-dev" target="_blank"><img id="link" class="icon" src="imagens/logotipo-do-linkedin.png" alt="linkedin" onclick="linkedin()"></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img id="gma" class="icon" src="imagens/gmail.png" alt="gmail"></a>
-            <a href="PDF/CurriculoDanielBackend.pdf" download><button>Baixar o CV</button></a>
-        </div>  
-        <div class="projeto" id="projeto">
-            <h3>PROJETOS</h3>
-            <div class="back">
-                <span class="backTitle">Projetos Backend</span>
+        </section>
+        <aside class="WhatsFixed">
+            <a href="https://wa.me/5519997601516?text=Ol%C3%A1+Daniel%2C+tudo+bem%3F+Vim+Pelo+seu+portif%C3%B3lio" target="_blank">
+                <img class="WhatsFixedItem" src="imagens/whatsapp (1).png" alt="Ícone do WhatsApp">
+            </a>
+        </aside>
+        <section id="sobre">
+            <h2>SOBRE MIM</h2>
+            <div class="sobreItens">
+                <div class="card" id="curso">
+                    <p>Graduando em:</p>
+                    <p class="red">Análise e desenvolvimento de sistemas</p>
+               </div>
+               <div class="card" id="back">
+                    <p>Apaixonado por:</p>
+                    <p class="red">BackEnd</p>
+                </div>
+                <div class="card" id="front">
+                    <p>Aplicações robustas em</p>
+                    <p class="red">FrontEnd</p>
+                </div>
+                <div class="card" id="csharp">
+                    <p>trabalho com:</p>
+                    <p class="red">C#/.net</p>
+                </div>
+            </div>   
+        </section>
+        <section class="projeto" id="projeto">
+            <h2>PROJETOS</h2>
+            <article class="back">
+                <h3 class="backTitle">Projetos Backend</h3>
                 <div class="projetosBack">
                     <div class="projetos" id="natus">
-                        <a href="https://github.com/DanielCamargo1/AgendamentoBackend.git" target="_blank"><img class="imgProjeto" src="imagens/BACKENDaGENDAMENTO.png" alt="Computador com o projeto agendamento"></a>
-                        <a class="Txt" id="natusTxt"  href="https://github.com/DanielCamargo1/AgendamentoBackend.git" target="_blank"><p class="ttxt">Backend Agendamento></p></a>
-                        <p class="descricao">Um sistema de agendamento de serviços permite aos usuários registrar, consultar, atualizar e cancelar agendamentos. Essa aplicação facilita aos clientes marcar horários para os serviços oferecidos e aos provedores de serviços gerenciar sua agenda de compromissos de forma eficaz <br> </p>
-                        <div class="stacks">                  
-                            <i class="devicon-csharp-plain colored"></i>
-                            <i class="devicon-dotnetcore-plain colored"></i>
-                            <i class="devicon-mysql-plain colored"></i>
-                            <i class="devicon-nuget-original-wordmark colored"></i>
-                        </div>
+                       
                     </div>
                     <div class="projetos" id="natus">
-                        <a href="https://github.com/DanielCamargo1/BackendNotificacaoDeAudiencia.git" target="_blank"><img class="imgProjeto" src="imagens/audiencia.png" alt="Computador com o projeto screensound"></a>
-                        <a class="Txt" id="natusTxt"  href="https://github.com/DanielCamargo1/BackendNotificacaoDeAudiencia.git" target="_blank"><p class="ttxt">Notificador De Audiência></p></a>
-                        <p class="descricao">Esta é uma API para gerenciar audiências, permitindo criar, visualizar, atualizar e excluir audiências. Além disso, fornece informações sobre o número total de audiências armazenadas. Auxiliando assim no controle de audiência de determinados eventos</p>
-                        <div class="stacks">                  
-                            <i class="devicon-csharp-plain colored"></i>
-                            <i class="devicon-dotnetcore-plain colored"></i>
-                            <i class="devicon-mysql-plain colored"></i>
-                            <i class="devicon-nuget-original-wordmark colored"></i>
-                        </div>
+                        
                     </div>
-                     <div class="projetos" id="natus">
-                        <a target="_blank" href="https://github.com/DanielCamargo1/CrudSistemaCadastro" ><img class="imgProjeto" src="imagens/CadastroDeProduto.png" alt="Computador com o projeto Cadastro De Produto"></a></a>
-                        <a class="Txt" id="natusTxt"  href="https://github.com/DanielCamargo1/CrudSistemaCadastro" target="_blank"><p class="ttxt">Crud Cadastro De Produtos></p></a>
-                        <a target="_blank" href="https://github.com/DanielCamargo1/CrudSistemaCadastro">
-                        </a>
-                        <p class="descricao">API Sistema de Cadastro! <br>
-                            A aplicação feita é um crud, de cadastro de produtos, onde o mesmo possui as 4 operações (Creat, Read, Update, Delet). A aplicação conta com o banco de dados MySql para o armazenamento dos dados! <br>
-                            
-                            Endpoints da API: <br>
-                            GET /produtos: Retorna uma lista de todos os produtos cadastrados. <br>
-                            POST /produtos: Adiciona um novo produto ao sistema. <br>
-                            PUT /produtos/: Atualiza as informações de um produto existente. <br>
-                            DELETE /produtos/: Exclui um produto do sistema.<br><strong>Técnologias usadas:</strong></p>
-
-                            <div class="stacks">                  
-                                <i class="devicon-csharp-plain colored"></i>
-                                <i class="devicon-dotnetcore-plain colored"></i>
-                                <i class="devicon-mysql-plain colored"></i>
-                                <i class="devicon-nuget-original-wordmark colored"></i>
-                            </div>
+                    <div class="projetos" id="natus">
+                        
                     </div>
-                    
                 </div>
-            </div>
-            <div clas="front">
-                <span class="frontTitle">Projetos FrontEnd</span>
+            </article>
+            <article class="front">
+                <h3 class="frontTitle">Projetos FrontEnd</h3>
                 <div class="projetosFront">
-                    <div class="projetos" id="Barbearia-Alura">
-                        <a href="https://danielcamargo1.github.io/LeMassasArtesanais/" target="_blank"><img class="imgProjeto" src="imagens/LemassasPortifólio.png" alt="Computador com o projeto da natus volantes"></a>
-                        <a class="Txt" id="barbeariaTxt"  href="https://danielcamargo1.github.io/LeMassasArtesanais/" target="_blank"><p class="ttxt">Site - Lê Massas Artesanais></p> </a>
-                        <p class="descricao"> Site desenvolvido para empresa que trabalha na fabricação e vendas de massas artesanais. Com uma plataforma intuitiva e atraente, permitindo aos clientes explorar o catálogo de produtos, enquanto também oferece informações sobre a empresa e seu compromisso com a qualidade.<strong>Técnologias usadas:</strong></p>
-                        <div class="stacks">                           
-                            <i class="devicon-html5-plain colored"></i>
-                            <i class="devicon-css3-plain colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                        </div>
-                    </div>
-                    <div class="projetos" id="natus">
-                        <a href="https://natusvolantes.github.io/Natus/#" target="_blank"><img class="imgProjeto" src="imagens/projetosPortifólio.png" alt="Computador com o projeto da natus volantes"></a>
-                        <a class="Txt" id="natusTxt"  href="https://natusvolantes.github.io/Natus/#" target="_blank"><p class="ttxt">Site Natus Volantes ></p></a>
-                        <p class="descricao">Site para empresa Natus Volantes, desenvolvido para ser simples porém objetivo.<br> <strong>Técnologias usadas:</strong> </p>
-                        <div class="stacks">                           
-                            <i class="devicon-html5-plain colored"></i>
-                            <i class="devicon-css3-plain colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                        </div>
-                    </div>
                     
-                    <div class="projetos" id="Calculadora">
-                        <a href="https://danielcamargo1.github.io/Calculadora/" target="_blank"><img class="imgProjeto" src="imagens/Calculadora.png" alt="Computador com o projeto da natus volantes"></a>
-                        <a class="Txt" id="calcTxt"  href="https://danielcamargo1.github.io/Calculadora/" target="_blank"><p class="ttxt">Calculadora Web></p></a>
-                        <p class="descricao">Um projeto pessoal, desenvolvimento de uma calculadora web.<br> <strong>Técnologias usadas:</strong></p>
-                        <div class="stacks">                           
-                            <i class="devicon-html5-plain colored"></i>
-                            <i class="devicon-css3-plain colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                        </div>
+                    </div>
+                    <div class="projetos" id="devCamargo">
+                        
+                    </div>
+                    <div class="projetos" id="SpaceInvaders">
+                       
                     </div>
                 </div>
-
-            </div>
-            <div clas="front">
-                <span class="frontTitle">Projetos De Design</span>
-                <div class="projetosFront">
-                    <div class="projetos" id="natus">
-                        <a href="https://www.behance.net/gallery/156192915/Portifolio-Igreja" target="_blank"><img class="imgProjeto" src="imagens/PortifolioIgreja.png" alt="Computador com o projeto portifolioIgrja"></a>
-                        <a class="Txt" id="natusTxt"  href="https://www.behance.net/gallery/156192915/Portifolio-Igreja" target="_blank"><p class="ttxt">Portifólio Igreja></p></a>
-                        <p class="descricao">Artes gráficas para igreja. As mesmas foram para o instagram da igreja <br> <strong>Técnologias usadas:</strong> </p>
-                        <div class="stacks">
-                            
-                            <i class="devicon-photoshop-plain colored"></i>
-                            <i class="devicon-behance-plain colored"></i>
-          
-                        </div>
-                    </div>
-                    <div class="projetos" id="Barbearia-Alura">
-                        <a href="https://www.behance.net/gallery/155691985/portifolio-barbearia" target="_blank"><img class="imgProjeto" src="imagens/port barber.png" alt="Computador com o projeto da natus volantes"></a>
-                        <a class="Txt" id="barbeariaTxt"  href="https://www.behance.net/gallery/155691985/portifolio-barbearia" target="_blank"><p class="ttxt">Portifólio Barbearia></p> </a>
-                        <p class="descricao">4 artes gráficas desnvolvidas para Barbearia e as artes destianndas ao instagram do cliente<br> <strong>Técnologias usadas:</strong></p>
-                        <div class="stacks">
-                            
-                            <i class="devicon-photoshop-plain colored"></i>
-                            <i class="devicon-behance-plain colored"></i>
-          
-                        </div>
-                    </div>
-                    <div class="projetos" id="Calculadora">
-                        <a href="https://www.behance.net/gallery/131290763/Logotipo-MW" target="_blank"><img class="imgProjeto" src="imagens/mwDocinhos.png" alt="Computador com o projeto da natus volantes"></a>
-                        <a class="Txt" id="calcTxt"  href="https://www.behance.net/gallery/131290763/Logotipo-MW" target="_blank"><p class="ttxt">Logotipo loja de doces></p></a>
-                        <p class="descricao">Um projeto no qual desenvolvi um logotipo para empresa de doces .<br> <strong>Técnologias usadas:</strong> </p>
-                        <div class="stacks">
-                            
-                            <i class="devicon-photoshop-plain colored"></i>
-                            <i class="devicon-behance-plain colored"></i>
-          
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </main> 
+            </article>
+        </section>
+    </main>
     <footer id="footer">
-        <a href="https://github.com/DanielCamargo1">
-            <p>@ Direitos reservados Daniel Camargo</p>
-        </a>
+        <p>Desenvolvido por Daniel Camargo &copy; 2024</p>
     </footer>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="index.js"></script>
 </body>
 </html>

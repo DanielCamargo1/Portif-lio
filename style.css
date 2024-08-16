@@ -4,7 +4,9 @@
     padding: 1px;
     box-sizing: border-box;
     text-decoration: none;
+
 }
+
 
 header{
     width: 100%;
@@ -12,12 +14,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 10px 10px 20px rgba(0, 0, 0, 0.158);
-    background-color: #cfb8a49a;
+    background-color: transparent;
+
 }
 
 .nome-profissao{
-  margin:90px;
+  margin-left:20px;
+  margin-top: 200px;
 }
 
 #moon{
@@ -30,13 +33,14 @@ header{
     display:flex;
     align-items: center;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 14px;
 
 }
 
 .portifolio{
-    color:#02143d;
-    font-size: 30px;
+    color:#9B0E0C;
+    font-size: 35px;
+    gap:30px
 }
 
 .cabecalho {
@@ -53,23 +57,20 @@ header{
     margin-left: 20px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#023E73;
+    color:#3455A1;
     align-items: center;
 }
 
 .cabecalho-menu-item:hover{
     font-size: 21px;
-    color: #BF6415;
+    color:#9B0E0C;
 }
 
 .apresentacao{
-    background: rgb(2,64,89);
-    background: linear-gradient(204deg, rgba(2,64,89,1) 0%, rgba(0,0,0,1) 100%);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    background-image: url("/imagens/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
 }
 
 h1{
@@ -77,12 +78,18 @@ h1{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation-duration: 3s;
-    animation-name: slidein;
-    color:#D9CCC1;
+    color:#3455A1;
 }
 
-h1:hover{
-    color:#BF6415;
+.nome{
+    font-size: 70px;
+}
+
+code{
+    font-size: 20px;
+    color:#9B0E0C;
+   
+
 }
 
 @keyframes slidein {
@@ -117,12 +124,14 @@ h1:hover{
 
 #daniel{
     width: 100%;
-    font-size:40px ;
+    font-size:20px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ImagemDesenvolvedor img{
-    width: 100%;
+    width: 20%;
+    margin-left: 870px;
+    margin-bottom: 100px;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -138,15 +147,16 @@ h1:hover{
     }
 }
 
-
-#web{
-    font-size:27px ;
+.web{
+    font-size:37px ;
     width:90px;
-    color:#BF6415;
+    color:#9B0E0C;
+
 }
 
 .coffe-icon{
-    width:6%;
+    width:3%;
+    margin-left: 180px;
 }
 
 .logo-dev{
@@ -159,11 +169,12 @@ h1:hover{
 }
 
 .dev{
-    margin-top: -12%;
+    margin-top: -22%;
     margin-right:100px ;
     animation-duration: 1s;
     animation-name: bounce;
     width: 300px;
+    filter: drop-shadow(1px 1px 20px #3455A1);
 }
 
 @keyframes bounce{
@@ -177,13 +188,14 @@ h1:hover{
 }
 
 .texto-apresentacao {
-    color:#D9CCC1;
+    color:#4C311F;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     font-size: 23px;
+    text-align: left;
+    margin: 10%;
+    margin-top: -1%;
     width: 80%;
-    margin: 30px;
-
 }
 
 .logo-dev{
@@ -191,7 +203,70 @@ h1:hover{
     flex-direction: row;    
     align-items: center;
 }
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #9B0E0C;
+}
 
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px#3455a1ad;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.card p{
+    margin-top: 10%;
+}
+
+#curso{
+    background-image: url("imagens/ads.jpg");
+    color:white;
+}
+
+#back{
+    background-image: url("imagens/BackCArd.png");
+}
+
+#front{
+    background-image: url("imagens/front.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+#csharp{
+    background-image: url("imagens/Csharp-.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.sobreItens{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+
+.card:hover{
+    width: 310px;
+    height: 310px;
+    border-radius: 7%;
+    box-shadow: 7px 7px 10px#3455a1ad;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-top: 40px;
+    font-size: 30px;
+}
+ 
 h3{
     text-align: center;
     width: 100%;
@@ -202,44 +277,38 @@ h3{
     animation-duration: 2s;
 }
 
-h3:hover{
-    color:#BF6415;
-    font-size: 32px;
-}
-
 button{
-    width: 130px;
-    height: 85px;
-    border-radius:10px ;
+    width: 60px;
+    height: 40px;
+    border-radius:10px;
     color:white;
-    background-color: #023E73;
+    background-color: #9B0E0C;
     font-family: 'Rubik', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     border-color: none;
     box-shadow: none;
 }
 
 button:hover{
-    background-color:#ffffff;
-    border:2px 2px #023E73;
-    color:#02143d;
-    width: 130px;
+    background-color:#db1f1c;   
 }
 
 .logo-dev {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-left: -1000px;
 }
 
 .icon {
     margin: 0 10px;
-    width: 110px; 
-    height: 110px;
+    width: 30px; 
+    height: 30px;
 }
 
 .icon:hover{
-    width: 120px;
-    height: 120px;
+    width: 32px;
+    height: 32px;
 }
 
 .projetosBack, .projetosFront, .pdesign{
