@@ -211,7 +211,7 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 10%;
-    box-shadow: 5px 5px 15px#3455a1ad;
+    box-shadow: 5px 5px 15px#3455a1dc;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
@@ -307,6 +307,15 @@ button:hover{
 .icon:hover{
     width: 32px;
     height: 32px;
+}
+
+.projetos-item{
+    width: 45%;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: row;
 }
 
 .WhatsFixedItem{
