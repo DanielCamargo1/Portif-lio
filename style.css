@@ -310,6 +310,7 @@ button:hover{
 #sobre{
     margin-top: -30px;
     background-color: #9B0E0C;
+    height: 590px;
 }
 
 .logo-dev {
@@ -341,6 +342,11 @@ button:hover{
     margin-top: 50px;
 }
 
+.projeto{
+
+    margin-top: -40px;
+}
+
 .overlay-container {
     position: relative;
     width: 90%;
@@ -369,6 +375,10 @@ button:hover{
     background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
     opacity: 0; 
     transition: opacity 0.3s ease; 
+}
+
+#projetoTitle{
+    color:aliceblue;
 }
 
 .descricaoProjeto{
