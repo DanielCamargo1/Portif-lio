@@ -41,7 +41,7 @@ header{
 
 .nome-prof8ssao{
   margin-left:20px;
-  margin-top: 200px;
+  margin-top:200px;
 }
 
 #moon{
@@ -92,6 +92,8 @@ header{
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
+    height: 720px;
+    
 }
 
 h1{
@@ -103,7 +105,11 @@ h1{
 }
 
 .nome{
-    font-size: 70px;
+    font-size: 80px;
+}
+
+.nome-profissao{
+    margin-top: 200px;
 }
 
 code{
@@ -206,26 +212,17 @@ code{
     }
 }
 
-.texto-apresentacao {
-    color:#4C311F;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    font-size: 23px;
-    text-align: left;
-    margin: 10%;
-    margin-top: -1%;
-    width: 80%;
-}
-
 .logo-dev{
     display: flex;
     flex-direction: row;    
     align-items: center;
 }
+
 h2{
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
     color: #9B0E0C;
+    margin-top: -90px;
 }
 
 .card{
@@ -312,7 +309,7 @@ button:hover{
 
 #sobre{
     margin-top: -30px;
-    background-color: rgb(230, 230, 230);
+    background-color: #9B0E0C;
 }
 
 .logo-dev {
@@ -364,13 +361,20 @@ button:hover{
     right: 0;
     bottom: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #64b1f5;
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
     opacity: 0; 
     transition: opacity 0.3s ease; 
+}
+
+.descricaoProjeto{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 20px;
 }
 
 .overlay-container:hover .overlay-text {
@@ -382,6 +386,19 @@ button:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.links{
+    display: flex;
+    flex-direction: row ;
+    gap:30px;
+}
+
+.linkItem{
+    text-decoration: none;
+    border: solid 2px #4ea2ec;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
 
 .WhatsFixedItem{
     margin-left:90%;
