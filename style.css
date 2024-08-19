@@ -357,7 +357,7 @@ button:hover{
     width: 100%;
     height: auto;
     display: block;
-    margin-top: 30px;
+    gap:20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -410,6 +410,30 @@ button:hover{
     padding: 10px;
     border-radius: 50px;
     color: white;
+}
+
+#MinhasSkills{
+    color: #3455A1;
+}
+
+.Skills{
+    background-color: #3455A1;
+    margin-top: 100px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    font-size: 90px;
+    gap:7px;
+    margin: 10px;
+    transition: opacity 0.3s ease; 
+}
+
+.skill, i:hover{ 
+    transform: scale(1.10); 
 }
 
 .WhatsFixedItem{
