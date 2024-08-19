@@ -20,13 +20,13 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background:#9B0E0C; 
+    background:#4A6491; 
     border-radius: 50px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #700202; 
+    background: #30466d; 
   }
 
 header{
@@ -59,7 +59,7 @@ header{
 }
 
 .portifolio{
-    color:#9B0E0C;
+    color:#30395C;
     font-size: 35px;
     gap:30px
 }
@@ -84,7 +84,7 @@ header{
 
 .cabecalho-menu-item:hover{
     font-size: 21px;
-    color:#9B0E0C;
+    color:#1A1F2B;
 }
 
 .apresentacao{
@@ -104,6 +104,14 @@ h1{
     color:#3455A1;
 }
 
+.typing{
+    color: #D0E4F2;
+    background-color: #02143d;
+    padding: 15px;
+    border-radius: 10%;
+    font-size: 28px;
+}
+
 .nome{
     font-size: 80px;
 }
@@ -112,10 +120,6 @@ h1{
     margin-top: 200px;
 }
 
-code{
-    font-size: 20px;
-    color:#9B0E0C;
-}
 
 @keyframes slidein {
   from {
@@ -129,13 +133,7 @@ code{
   }
 }
 
-.h2-front-coffe{
-    display: flex;
-    flex-direction: row;
-    margin-top:1%;
-    animation-duration: 1s ;
-    animation-name: slide;
-}
+
 
 @keyframes slide{
     from{
@@ -172,11 +170,13 @@ code{
     }
 }
 
-.web{
-    font-size:37px ;
-    width:90px;
-    color:#9B0E0C;
 
+.web{
+    font-size:50px ;
+    width:100%;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    color:#02143d;
 }
 
 .coffe-icon{
@@ -192,6 +192,28 @@ code{
 .icon{
     width: 30px;
 }
+.cv {
+    display: inline-block;
+    width: 100px; 
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #02143d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px; 
+    text-align: center; 
+    line-height: 40px; 
+    text-decoration: none; 
+    border: none; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.cv:hover {
+    background-color: #30395C; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
 
 .dev{
     margin-top: -22%;
@@ -221,15 +243,15 @@ code{
 h2{
     font-size: 100px;
     text-align: center;
-    color: #9B0E0C;
-    margin-top: -90px;
+    color: #02143d;
+    
 }
 
 .card{
     width: 300px;
     height: 300px;
     border-radius: 10%;
-    box-shadow: 5px 5px 15px#3455a1dc;
+    box-shadow: 5px 5px 15px #3159b6;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
@@ -238,8 +260,6 @@ h2{
     margin-bottom: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
-
-
 
 .card p{
     margin-top: 10%;
@@ -291,25 +311,9 @@ h3{
     animation-duration: 2s;
 }
 
-button{
-    width: 60px;
-    height: 40px;
-    border-radius:10px;
-    color:white;
-    background-color: #9B0E0C;
-    font-family: 'Rubik', sans-serif;
-    font-size: 10px;
-    border-color: none;
-    box-shadow: none;
-}
-
-button:hover{
-    background-color:#db1f1c;   
-}
 
 #sobre{
     margin-top: -30px;
-    background-color: #9B0E0C;
     height: 590px;
 }
 
@@ -326,25 +330,26 @@ button:hover{
     height: 30px;
 }
 
-.icon:hover{
-    width: 32px;
-    height: 32px;
+#linkedin, #ghub{
+    font-size: 30px;
+    margin-left: 3px ;
 }
 
 .projetos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
+    gap: 100px; 
     justify-items: center; 
     margin: auto;
     max-width: 100%; 
     margin-left: 5%;
-    margin-top: 50px;
+    margin-top: 90px;
+    
 }
 
 .projeto{
-
     margin-top: -40px;
+    background-color: #d7d8db;
 }
 
 .overlay-container {
@@ -357,6 +362,7 @@ button:hover{
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 5%;
     gap:20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
@@ -379,8 +385,8 @@ button:hover{
 }
 
 #projetoTitle{
-    color:aliceblue;
-    margin-top: -50px;
+    color:#02143d;
+    margin-top: 20px;
 }
 
 .descricaoProjeto{
@@ -413,11 +419,12 @@ button:hover{
 }
 
 #MinhasSkills{
-    color: #3455A1;
+    color: #02143d;
+
 }
 
 .Skills{
-    background-color: #3455A1;
+    background-color: #feffff;
     margin-top: 100px;
 }
 
@@ -430,6 +437,7 @@ button:hover{
     gap:7px;
     margin: 10px;
     transition: opacity 0.3s ease; 
+    margin-top: 90px;
 }
 
 .skill, i:hover{ 
@@ -446,11 +454,8 @@ button:hover{
 }
 
 footer{
-    background-color: #1d2027;
-    width: 100%;
-    border-radius: 50%  0% 0%;
-    box-shadow: 5px 5px 10px 20px #50260273;
-    margin-top: 5%;
+    background-color: #02143d;
+    margin-top: 120px;
 }
 
 footer p{
@@ -460,9 +465,8 @@ footer p{
 }
 
 footer p:hover{
-    color: #4ea2ec;
+    color: #82bff5;
 }
-
 
 /*  Responsividade */
 
