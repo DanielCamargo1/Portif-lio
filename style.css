@@ -516,21 +516,25 @@ footer p:hover{
     }
 
     .ImagemDesenvolvedor{
-        margin-top: 20px;
+        margin-top: -150px;
         width: 70%;
+        margin-left: 400px;
+    }
+
+    #sobre{
+        width: 700px;
+        height: 1400px;
     }
 
     .projetos {
-        grid-template-columns: 1fr;
-        gap: 50px;
-        
+        display: flex;
+        flex-direction: column;
+        margin-top: -800px;
+        margin-left: 90px;
     }
 
-    .projeto{
-        margin-top:700px;
-    }
 
-    .projetos-item, .overlay-container {
+    .projetos-item{
         width: 97%;
 
     }
@@ -539,14 +543,27 @@ footer p:hover{
         margin-top: -100px;
     }
 
+    .front{
+        margin-top: 1000px;
+    }
+
+    h3{
+        display: none;
+    }
+
     .card {
         width: 60px;
         height: 300px;
         font-size: 40px;
+        margin-left: 50px;
         background-size: cover;
         background-repeat: no-repeat; 
         background-position: center center;
     
+    }
+
+    #projetos{
+        margin-top: 800px;
     }
 
     .sobreItens {
@@ -558,11 +575,12 @@ footer p:hover{
     .skill {
         flex-direction: column;
         font-size: 50px;
+        margin-left: 400px;
     }
 
     .WhatsFixedItem {
         width: 60px;
-        margin-left: 80%;
+        margin-left: 50%;
     }
 
     .footer p {
@@ -585,7 +603,6 @@ footer p:hover{
 /* Responsividade para tablets e desktops menores */
 @media (max-width: 1024px) {
 
-    /* Ajuste dos títulos e textos */
     h1 {
         font-size: 30px;
     }
@@ -626,4 +643,8 @@ footer p:hover{
         height: 38px;
         font-size: 13px;
     }
+}
+
+@media (max-width: 320px) {
+
 }
