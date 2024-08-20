@@ -600,7 +600,7 @@ footer p:hover{
     }
 }
 
-/* Responsividade para tablets e desktops menores */
+/* 
 @media (max-width: 1024px) {
 
     h1 {
@@ -616,7 +616,7 @@ footer p:hover{
         margin-left: 0;
     }
 
-    /* Ajuste dos cards */
+
     .projetos {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -643,8 +643,68 @@ footer p:hover{
         height: 38px;
         font-size: 13px;
     }
+} */
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .WhatsFixedItem{
+        margin-left:1000px;
+    }
+
+    .logo-dev{
+      margin-right: -30px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 991px) {
+    .WhatsFixedItem{
+        margin-left:800px;
+    }
 
+    #dev{
+        width: 18%;
+        margin-left: 700px;
+        margin-top: -800px;
+    }
+
+    .logo-dev{
+      margin-right: -300px;
+    }
+
+    .skill{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 617px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contato form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+
+    .about-img img {
+        width: 90vw;
+    }
 }
