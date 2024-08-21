@@ -675,8 +675,48 @@ footer p:hover{
 
 
 @media (max-width: 365px) {
+    .portifolio{
+        font-size: 140%;
+    }
+
+    .cabecalho-menu-item{
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    
     .apresentacao{
         width: 100%;
         background-image: 100%;
+    }
+
+    h1{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .nome{
+        font-size: 30px;
+        margin-left: -170px;
+    }
+
+    .web{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 200px;
+    }
+
+    .nome-profissao{
+        margin-right: -130px;
+        margin-top: 100px;
+    }
+
+    .logo-dev{
+        margin-left: 120px;
+    }
+
+    .ImagemDesenvolvedor{
+        margin-left: -680px;
+        margin-top: 400px;
+        width: 300%;
     }
 }
