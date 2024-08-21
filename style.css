@@ -719,4 +719,31 @@ footer p:hover{
         margin-top: 400px;
         width: 300%;
     }
+
+    #sobreMim{
+        font-size: 530%;
+        margin-left: -360px;
+    }
+
+    .card{
+        width: 200px;
+        font-size: 30px;
+    }
+
+    #projetoTitle{
+        font-size: 530%;
+    }
+
+    .projeto{
+        margin-left: -30px;
+        margin-bottom: 10px;
+    }
+
+    .descricaoProjeto{
+        font-size: 80%;
+    }
+
+    .skill{
+        margin-left: 35%;
+    }
 }
