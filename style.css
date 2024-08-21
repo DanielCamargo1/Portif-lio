@@ -39,29 +39,19 @@ header{
 
 }
 
-.nome-prof8ssao{
-  margin-left:20px;
-  margin-top:200px;
-}
-
-#moon{
-    margin-left: 60px;
-    width:50px;
-}
 
 .cabecalho-menu{
     width: 100%;
     display:flex;
     align-items: center;
     justify-content: right;
-    margin-right: 14px;
+    margin-right: 6%;
 
 }
 
 .portifolio{
     color:#30395C;
-    font-size: 35px;
-    gap:30px
+    font-size: 260%;
 }
 
 .cabecalho {
@@ -69,21 +59,17 @@ header{
     float:left;
 }
 
-.ImagemDaniel{
-    width:80px;
-    margin-top: 12px;
-}
 
 .cabecalho-menu-item{
-    margin-left: 20px;
-    font-size: 20px;
+    margin-left: 4%;
+    font-size: 120%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#3455A1;
     align-items: center;
 }
 
 .cabecalho-menu-item:hover{
-    font-size: 21px;
+    font-size: 125%;
     color:#1A1F2B;
 }
 
@@ -92,13 +78,13 @@ header{
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
-    height: 720px;
+    height: 100%;
     
 }
 
 h1{
     width: 100%;
-    font-size: 40px;
+    font-size: 240%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation-duration: 3s;
     color:#3455A1;
@@ -107,17 +93,17 @@ h1{
 .typing{
     color: #D0E4F2;
     background-color: #02143d;
-    padding: 15px;
+    padding: 0.7%;
     border-radius: 10%;
-    font-size: 28px;
+    font-size: 70%;
 }
 
 .nome{
-    font-size: 80px;
+    font-size: 200%;
 }
 
 .nome-profissao{
-    margin-top: 200px;
+    margin-top: 15%;
 }
 
 
@@ -145,16 +131,11 @@ h1{
     }
 }
 
-#daniel{
-    width: 100%;
-    font-size:20px ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .ImagemDesenvolvedor img{
     width: 20%;
-    margin-left: 870px;
-    margin-bottom: 100px;
+    margin-left: 70%;
+    margin-bottom: 10%;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -172,26 +153,18 @@ h1{
 
 
 .web{
-    font-size:50px ;
+    font-size:290% ;
     width:100%;
-    margin-left: 5px;
+    margin-left: 0.7%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
     color:#02143d;
 }
 
-.coffe-icon{
-    width:3%;
-    margin-left: 180px;
-}
-
-.logo-dev{
-    display: flex;
-    flex-direction: column;
-}
 
 .icon{
-    width: 30px;
+    width: 10%;
 }
+
 .cv {
     display: inline-block;
     width: 100px; 
@@ -217,10 +190,8 @@ h1{
 
 .dev{
     margin-top: -22%;
-    margin-right:100px ;
     animation-duration: 1s;
     animation-name: bounce;
-    width: 300px;
     filter: drop-shadow(1px 1px 20px #3455A1);
 }
 
@@ -241,7 +212,7 @@ h1{
 }
 
 h2{
-    font-size: 100px;
+    font-size: 560%;
     text-align: center;
     color: #02143d;
     
@@ -255,8 +226,8 @@ h2{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
-    margin-top: 40px;
-    font-size: 30px;
+    margin-top: 6%;
+    font-size: 200%;
     margin-bottom: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
@@ -304,10 +275,10 @@ h2{
 h3{
     text-align: center;
     width: 100%;
-    font-size:30px ;
+    font-size:200% ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#02143d;
-    margin-top: 50px;
+    margin-top: 5%;
     animation-duration: 2s;
 }
 
@@ -338,17 +309,17 @@ h3{
 .projetos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 100px; 
+    gap: 10%; 
     justify-items: center; 
     margin: auto;
     max-width: 100%; 
     margin-left: 5%;
-    margin-top: 90px;
+    margin-top: 5%;
     
 }
 
 .projeto{
-    margin-top: -40px;
+    margin-top: 1%;
     background-color: #d7d8db;
 }
 
@@ -425,7 +396,7 @@ h3{
 
 .Skills{
     background-color: #feffff;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .skill{
@@ -433,9 +404,8 @@ h3{
     flex-direction: row;
     justify-content: center;
     width:100%;
-    font-size: 90px;
-    gap:7px;
-    margin: 10px;
+    font-size: 400%;
+    gap:2%;
     transition: opacity 0.3s ease; 
     margin-top: 90px;
 }
@@ -600,7 +570,16 @@ footer p:hover{
     }
 }
 
-/* 
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 55%;
+    }
+
+    .logo-dev{
+      margin-right: -30px;
+    }
+}
 @media (max-width: 1024px) {
 
     h1 {
@@ -611,9 +590,10 @@ footer p:hover{
         font-size: 60px;
     }
 
-    .ImagemDesenvolvedor img {
-        width: 40%;
-        margin-left: 0;
+    .ImagemDesenvolvedor  {
+        width: 120%;
+        margin-top: 10%;
+        margin-left: -20%;
     }
 
 
@@ -643,21 +623,10 @@ footer p:hover{
         height: 38px;
         font-size: 13px;
     }
-} */
-
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
-
     .WhatsFixedItem{
-        margin-left:1000px;
+        margin-left:-2300px;
     }
-
-    .logo-dev{
-      margin-right: -30px;
-    }
-}
+} 
 
 @media (max-width: 991px) {
     .WhatsFixedItem{
@@ -680,31 +649,34 @@ footer p:hover{
 }
 
 @media (max-width: 768px) {
-    
-}
-
-@media (max-width: 617px) {
-    .portfolio-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
-
-    .contato form .input-box input {
+    body{
         width: 100%;
     }
-}
 
-@media (max-width: 365px) {
-    .home-img img {
-        width: 90vw;
+    .cabecalho-menu-item{
+
+        font-size: 170%;
+    }
+    .ImagemDesenvolvedor {
+        width: 150%;
+        margin-left: -85%;
+        margin-top: 50%;
     }
 
-    .about-img img {
-        width: 90vw;
+    .logo-dev{
+        margin-left: -10px;
+        margin-right: 570px;
+    }
+
+    .web{
+        margin-right: 32%;
+    }
+}
+
+
+@media (max-width: 365px) {
+    .apresentacao{
+        width: 100%;
+        background-image: 100%;
     }
 }
