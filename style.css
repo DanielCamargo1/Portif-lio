@@ -36,7 +36,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
-
 }
 
 
@@ -262,8 +261,8 @@ h2{
 .sobreItens{
     display: flex;
     flex-direction: row;
-    gap:5%;
-    margin-left: 10%;
+    gap:2%;
+    margin-left: 2%;
 }
 
 .card:hover{
@@ -368,11 +367,13 @@ h3{
 
 .overlay-container:hover .overlay-text {
     opacity: 1; 
+    border-radius: 5%;
 }
 
 .projetos-item:hover {
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5%;
 }
 
 .links{
@@ -581,7 +582,9 @@ footer p:hover{
     }
 }
 @media (max-width: 1024px) {
-
+body{
+    font-size: 200%;
+}
     h1 {
         font-size: 30px;
     }
@@ -596,9 +599,17 @@ footer p:hover{
         margin-left: -20%;
     }
 
+    .logo-dev{
+        margin-left: -82%;
+    }
 
     .projetos {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .front{
+        margin-top: 70%;
+        margin-bottom: 10%;
     }
 
     .card {
@@ -606,9 +617,10 @@ footer p:hover{
     }
 
     .sobreItens {
-        gap: 10%;
-        margin-left: 5%;
+        gap: 5%;
+        margin-left: -2%;
     }
+
 
     .skill {
         font-size: 70px;
@@ -643,8 +655,17 @@ footer p:hover{
       margin-right: -300px;
     }
 
+    .card{
+        width: 200px;
+        
+    }
+
+    .sobreItens{
+        margin-left: 2%;
+    }
+
     .skill{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
@@ -654,13 +675,29 @@ footer p:hover{
     }
 
     .cabecalho-menu-item{
-
-        font-size: 170%;
+        font-size: 100%;
     }
+
     .ImagemDesenvolvedor {
-        width: 150%;
-        margin-left: -85%;
-        margin-top: 50%;
+        width: 200%;
+        margin-left: -100%;
+        margin-top: 70%;
+    }
+
+    .card{
+        font-size: 120%;
+    }
+
+    .sobreItens{
+        margin-left: 32%;
+    }
+
+    .overlay-text{
+        font-size: 120%;
+    }
+
+    .projeto{
+        margin-top: 40%;
     }
 
     .logo-dev{
@@ -668,9 +705,107 @@ footer p:hover{
         margin-right: 570px;
     }
 
-    .web{
-        margin-right: 32%;
+    .front{
+        margin-top: 100%;
     }
+
+    .web{
+        margin-right: -2%;
+    }
+
+    .WhatsFixedItem{
+        margin-left: 55%
+    }
+}
+
+@media (max-width: 379px){
+    .portifolio{
+        font-size: 100%;
+    }
+
+    .cabecalho-menu-item{
+        display: none;
+    }
+
+    header{
+       gap: 2px; 
+    }
+
+    .nome-profissao{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left:40%;
+    }
+
+    .typing{
+        margin-left: 10%;
+    }
+
+    .web{
+        font-size: 120%;
+        text-align: center;
+        margin-right: -35px;
+    }
+
+    .logo-dev{
+        margin-left: 190%;
+    }
+
+    .ImagemDesenvolvedor{
+        margin-left: -200%;
+        width: 300%;
+        margin-top:120% ;
+    }
+
+    h2{
+        font-size: 300%;
+        margin-left: -300px;
+    }
+
+    .sobreItens{
+        margin-left: 50px;
+    }
+
+    .projeto{
+        margin-top: 200px;
+    }
+
+    #projetoTitle{
+        margin-left: 20px;
+    }
+
+    .projetos-item{
+        margin-left: -40px;
+        width: 300px;
+    }
+
+    .projetos-item:hover{
+        width: 300px;
+    }
+
+    .overlay-text{
+        font-size: 120%;
+    }
+
+    .descricaoProjeto{
+        font-size: 60%;
+    }
+
+    .front{
+        margin-top: 200%;
+    }
+
+    .skill{
+        margin-left: 45%;
+        gap:12%;
+    }
+
+    #MinhasSkills{
+        margin-left: 8%;
+    }
+
 }
 
 
